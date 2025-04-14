@@ -1,5 +1,5 @@
 from imports import *
-from metrics import calculate_iou, calculate_dice
+from utilities.metrics import calculate_iou, calculate_dice
 def test_model(model, testloader):
     dice_list = []
     iou_list = []

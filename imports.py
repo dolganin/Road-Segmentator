@@ -18,7 +18,7 @@ from torchvision.io import read_image, ImageReadMode
 
 import segmentation_models_pytorch as smp
 from tqdm import tqdm
-from yaml_reader import yaml_reader
+from utilities.yaml_reader import yaml_reader
 
 
 config = yaml_reader()
